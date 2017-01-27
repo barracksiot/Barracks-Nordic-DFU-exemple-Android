@@ -1,0 +1,14 @@
+{
+  "versionId": "42",
+  "packageInfo": {
+    "url": "http://barracks.io/",
+    "md5": "deadbeef",
+    "size": 21432144324324322
+  },
+  "customUpdateData": {
+    "string": "toto",
+    "integer": 123,
+    "boolean": true,
+    "double": 3.14159265
+  }
+}

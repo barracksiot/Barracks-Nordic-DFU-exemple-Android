@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/barracks-client-android.iml" filepath="$PROJECT_DIR$/barracks-client-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ota/ota.iml" filepath="$PROJECT_DIR$/ota/ota.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ota_sample/ota_sample.iml" filepath="$PROJECT_DIR$/ota_sample/ota_sample.iml" />
+    </modules>
+  </component>
+</project>

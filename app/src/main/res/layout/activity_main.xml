@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="io.barracks.androiddfusample.MainActivity"
+    android:background="@color/lightGray"
+    android:clipChildren="true"
+    android:clipToPadding="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:text="Need Help?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/helpButton"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textAlignment="textEnd"
+            android:textColor="@color/whiteWithAlpha"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_1">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:clipChildren="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:text="DEVICE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:text="Unknown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/deviceNameTextView"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:text="VersionID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/versionIDTextView"
+                android:textSize="12sp"
+                android:layout_marginTop="50dp"
+                android:visibility="invisible" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/versionIdEditText"
+                android:hint="VersionID" />
+
+            <TextView
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/updateStateTextView"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/updateNameTextView"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_marginRight="5dp"
+                    android:text=" " />
+
+                <TextView
+                    android:text=" "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/updateSizeTextView"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <TextView
+                android:text="uploading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/installStateTextView"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:visibility="gone" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/installProgressBar"
+                android:visibility="gone" />
+
+            <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/mainButton"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFF"
+                android:background="@drawable/button_shape"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

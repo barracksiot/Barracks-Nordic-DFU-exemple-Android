@@ -1,0 +1,2 @@
+include ':app', ":barracks"
+project(":barracks").projectDir = file("android-client/ota")

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Android DFU Sample</string>
+    <string name="check_update">Check Update !</string>
+    <string name="proceed_dfu">Proceed !</string>
+    <string name="back_to_devices">Back to devices list</string>
+    <string name="download_package">Download Package !</string>
+    <string name="proceed_to_dfu">Proceed to DFU</string>
+    <string name="update_description">Update available</string>
+    <string name="update_unavailable">No update available</string>
+    <string name="update_check_error">Update check failed:\n%1$s</string>
+    <string name="number_of_devices">%1$d Devices</string>
+    <string name="version_hint">Version ID</string>
+    <string name="connecting">Connecting</string>
+    <string name="disconnecting">Disconnecting</string>
+    <string name="uploading">Uploading</string>
+    <string name="aborted">Aborted</string>
+    <string name="need_help">Need Help?</string>
+
+
+</resources>
