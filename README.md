@@ -1,6 +1,6 @@
 # Barracks + Nordic DFU exemple #
 This  exemple app shows you how to push an update from [Barracks](https://barracks.io/) to a [Nordic NRF52](https://www.nordicsemi.com/Products/nRF52-Series-SoC) board, using the NordicDFU library and the Barracks SDK.
-![Nordic-nRF52-Series-redefines-single-chip-Bluetooth-Smart-by-marrying-barrier-breaking-performance-and-power-efficiency-with-on-chip-NFC-for-Touch-to-Pair.jpg](https://bitbucket.org/repo/zxrXpb/images/3082965743-Nordic-nRF52-Series-redefines-single-chip-Bluetooth-Smart-by-marrying-barrier-breaking-performance-and-power-efficiency-with-on-chip-NFC-for-Touch-to-Pair.jpg)
+![Nordic NRF52](https://www.nordicsemi.com/var/ezwebin_site/storage/images/media/images/products/nrf52-preview-dk/1481117-1-eng-GB/nRF52-Preview-DK_large.jpg)
 ## You should take a look at : ##
 * The [Android Barracks SDK](https://github.com/barracksiot/android-client)
 * The [Nordic Android DFULibrary](https://github.com/NordicSemiconductor/Android-DFU-Library)
